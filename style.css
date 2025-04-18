@@ -1,0 +1,56 @@
+/* Overall page background */
+body {
+  background-color: #a8b26a;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+/* Button style */
+.btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Optional styles to enhance layout */
+header,
+nav,
+main,
+footer {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+}
